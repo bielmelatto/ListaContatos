@@ -13,6 +13,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import java.util.List;
 
 import br.edu.ifsp.dmos5.R;
+import br.edu.ifsp.dmos5.criptografia.MD5;
 import br.edu.ifsp.dmos5.dao.UserDAO;
 import br.edu.ifsp.dmos5.model.User;
 
@@ -82,7 +83,7 @@ public class NewUserActivity extends AppCompatActivity implements View.OnClickLi
 
         }
 
-        db.addUser(new User(usuario, senha));
+        db.addUser(new User(usuario, MD5.criptografar(senha)));
         Toast.makeText(this, R.string.usuario_cadastrado, Toast.LENGTH_LONG).show();
         finish();
     }

@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+import br.edu.ifsp.dmos5.criptografia.MD5;
 import br.edu.ifsp.dmos5.model.User;
 
 public class UserDAO {
@@ -38,7 +39,7 @@ public class UserDAO {
 
     public boolean verificaSenha(String username, String password) {
         for (User user: users){
-            if (username.equals(user.getUsername()) && password.equals(user.getPassword())){
+            if (username.equals(user.getUsername()) && MD5.criptografar(password).equals(user.getPassword())){
                 return true;
             }
         }
