@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">App7_ListaContatos</string>
+    <string name="novoUsuario">Novo Usuário</string>
+    <string name="login">Login</string>
+    <string name="senha">Senha</string>
+    <string name="usuario">Usuário</string>
+    <string name="novo_contato">Novo Contato</string>
+    <string name="confSenha">Confirmação de senha</string>
+    <string name="senhas_diferentes">As senhas não coincidem.</string>
+    <string name="usuario_existente">Username já existente.</string>
+    <string name="usuario_cadastrado">Usuário cadastrado com sucesso.</string>
+    <string name="salvar">Salvar</string>
+    <string name="apelido">Apelido</string>
+    <string name="nome">Nome</string>
+    <string name="telefone">Telefone</string>
+    <string name="contatoSalvo">Contato adicionado.</string>
+    <string name="usuarioNaoCadastrado">O usuário não foi encontrado.</string>
+</resources>
