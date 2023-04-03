@@ -23,6 +23,7 @@
         android:layout_height="wrap_content"
         android:hint="@string/senha"
         android:textAlignment="center"
+        android:inputType="textPassword"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         android:layout_marginTop="50dp"
